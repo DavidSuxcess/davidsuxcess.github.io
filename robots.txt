@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Указываем расположение файла sitemap
+Sitemap: https://davidsuxcess.github.io/sitemap.xml
+
+# Дополнительные настройки для GitHub Pages
+# Разрешаем индексацию статических файлов CSS и JS
+User-agent: Googlebot
+Allow: *.css
+Allow: *.js
+
+# Указываем основное зеркало сайта
+Host: davidsuxcess.github.io
